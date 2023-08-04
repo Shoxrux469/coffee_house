@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Merienda", cursive;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+p {
+  font-size: 14px;
+}
+button {
+    background-color: transparent;
+    border: 1px solid white;
+}
+.container {
+    margin: 0 auto;
+    width: 1140px;
+    padding: 0 20px;
+}
+.line{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    align-items: center;
+    margin-bottom: 35px;
+    .black {
+        width: 60px;
+        height: 1px;
+        background: #000;
+        box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
+    }
+    .white{
+        width: 60px;
+        height: 1px;
+        background: #FFF;
+        box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
+    }
+}
+.head {
+    background-image: url(./imades/cofee_back.png);
+    background-size:  cover;
+    background-position: center;
+    height: 100vh;
+    header {
+      display: flex;
+      align-items: center;
+      .links {
+        display: flex;
+        align-items: end;
+        margin-top: 30px;
+        gap: 40px;
+      }
+    }
+    .title{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: white;
+        margin-top: 111px;
+        h1{
+            font-size: 40px;
+            text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+            margin-bottom: 20px;
+        }
+        p{
+            margin-bottom: 20px;
+        }
+        button {
+            padding: 5px 42px 5px 42px;
+            color: white;
+        }        
+    }
+  }
+.about_box {
+    display: flex;
+    align-items: center;
+    height: 30vw;
+    .text_box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        h1{
+            margin-bottom: 20px;
+            font-size: 24px;
+            font-weight: 400;
+        }
+        .text {
+            font-size: 14px;
+            width: 44vw;
+            text-align: center;
+        }
+    }
+}
+.our_best {
+    background-image: url(./imades/paper.png);
+    background-size: cover;
+    background-position: center;
+    height: 38vw;
+    display: flex;
+    align-items: center;
+    h1 {
+        text-align: center;
+        font-size: 24px;
+        font-weight: 400;
+    }
+    .products {
+        display: flex;
+        background-color: red;
+        justify-content: center;
+        gap: 71px;
+        margin-top: 39px;
+        .product {
+            width: 220px;
+            height: 240px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 12px;
+            border-radius: 8px;
+            background: rgba(255, 255, 255, 0.65);
+            .price {
+                width: 80%;
+                text-align: end;
+                font-weight: 700;
+            }
+            p {
+                font-size: 14px;
+            }
+        }
+    }
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    .links1 {
+        display: flex;
+        gap: 40px;
+        align-items: end;
+        margin-bottom: 30px;
+        a {
+            color: #000;
+        }
+    }
+    .down {
+        margin-bottom: 0;
+    }
+}

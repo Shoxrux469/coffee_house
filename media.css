@@ -1,0 +1,32 @@
+@media(max-width: 1199.98px){
+    .container{
+        margin: 0 auto;
+        width: 900px;
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+}
+@media(max-width:991.98px){
+    .container{
+        margin: 0 auto;
+        width: 700px;
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+}
+@media(max-width:767.98px){
+    .container{
+        margin: 0 auto;
+        width: 500px;
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+}
+@media(max-width: 575.98px){
+    .container{
+        margin: 0 auto;
+        width: 320px;
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+}
